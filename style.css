@@ -1,0 +1,92 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  /* margin: 0 auto; */
+}
+
+#page-base {
+  height: 5em;
+}
+
+#head-base {
+  margin-left: 11em;
+  margin-top: -5em;
+  height: 5em;
+  background-color: #e8db9c;
+}
+
+/* 
+
+CONVERSION FROM MICROSOFT PAINT HSL INTEGERS (0-255 OR 0-240)
+Take integer hue and multiply by 1.5 to get the color cone angle.
+Divide any other values by 255 to get a percentage. 
+http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/color-model-conversion-function.htm
+
+You may enter HSL color cone and percentage values into the calculator here http://www.hexcolortool.com to get color hex values for easy entry into CSS code.
+
+*/
+
+#content {
+  margin-left: 11em;
+  padding: .5em 1.5em 1.5em 1.5em;
+  border-left: 1em solid #6888b6;
+  border-right: 1em solid #6888b6;
+}
+
+#bodyContent {
+  background-color: white;
+}
+
+h1 {
+  border: 5px solid #6888b6;
+  padding: 10px;
+}
+
+.topicbox {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 75%; /*37em;*/
+  border: 5px solid #6888b6;
+  padding: 10px;
+}
+
+/*  Only need this if want to put nav links/search here and set specific attributes for navigation.
+
+#navigation {
+}
+
+#head { 
+position: absolute;
+top: 0;
+right: 0;
+width: 100%;
+*/
+
+#content-margin {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 11em;
+  height: 100%;
+  background-color: #445b20;
+}
+
+.navPanel {
+  position: absolute;
+  top: 160px;
+  padding-top: 1em;
+  width: 11em;
+}
+
+#logospace {
+  position: absolute;
+  top: 7px;
+  width: 11em;
+  height: 160px;
+  
+}
+
+#footer {
+  margin-top: 0;
+  margin-left: 11em;
+  padding: 1.25em;
+}
